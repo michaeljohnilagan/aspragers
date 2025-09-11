@@ -7,6 +7,11 @@ if __name__ == '__main__':
     ' | AspRAGers is ready! Enter your question, or EXIT to exit.'+'\n'
     wait_message = '\n'+str(datetime.now())+\
     ' | AspRAGers is generating a response. Please wait...'+'\n'
+    
+    # RAG parameters
+    do_vector_search = False
+    num_results = 10
+    model_handle_llm = 'llama3.2:1b'
 
     # take user input as query, then respond
     while True:
@@ -16,7 +21,6 @@ if __name__ == '__main__':
         else:
             print(wait_message)
             print(rag.rag(query, \
-            do_vector_search=True, \
-            num_results=10, \
-            model_handle_llm='llama3.2:1b', \
-            seed=None))
+            do_vector_search=do_vector_search, num_results=num_results, \
+            model_handle_llm=model_handle_llm, seed=None))
+
