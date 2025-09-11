@@ -1,6 +1,7 @@
 import pandas as pd
 import minsearch
 import ollama
+import os
 from sentence_transformers import SentenceTransformer
 
 
@@ -54,18 +55,38 @@ def rag(query, do_vector_search, num_results, model_handle_llm, seed=None):
     answer = llm(prompt, model_handle_llm, seed)
     return answer
 
+def get_kb_records(filename):
+    df = pd.read_csv(filename, sep='\t', dtype=str)
+    for column_name in df.columns:
+        df[column_name] = df[column_name].fillna('') # make NAs blank
+    kb_records = df.to_dict('records')
+    return kb_records
+    
+def make_index_vector(kb_filename, vectors_filename):
+    kb_records = get_kb_records(kb_filename)
+    vectors = pd.read_csv(vectors_filename, header=None, sep=',')
+    vindex = minsearch.VectorSearch(keyword_fields={'author', 'year'})
+    vindex.fit(vectors, kb_records)
+    return vindex
 
-# the knowledge base text
-kb_df_filename = './data/data-kb.csv'
-kb_df = pd.read_csv(kb_df_filename, sep='\t', dtype=str)
-for column_name in kb_df.columns:
-    kb_df[column_name] = kb_df[column_name].fillna('') # make NAs blank
-kb_rec = kb_df.to_dict('records')
+def make_index_keyword(kb_filename):
+    kb_records = get_kb_records(kb_filename)
+    kwindex = minsearch.Index(text_fields=['title', 'abstract'], \
+    keyword_fields=['author', 'year'])
+    kwindex.fit(kb_records)
+    return kwindex
 
-# the knowledge base vectors
-vectors_filename = './data/embed-kb.csv'
-vectors = pd.read_csv(vectors_filename, header=None, sep=',')
 
-# the index (using vectors)
-vindex = minsearch.VectorSearch(keyword_fields={'author', 'year'})
-vindex.fit(vectors, kb_rec)
+# find the files used for the index
+rag_script_path = os.path.abspath(__file__)
+kb_filename = rag_script_path.replace('scripts/rag.py', 'data/data-kb.csv')
+vectors_filename = rag_script_path.replace('scripts/rag.py', \
+'data/embed-kb.csv')
+
+# index for vector search
+if True:
+    vindex = make_index_vector(kb_filename, vectors_filename)
+
+# index for keyword search
+if True:
+    kwindex = make_index_keyword(kb_filename)
