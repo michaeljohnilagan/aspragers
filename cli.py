@@ -10,7 +10,7 @@ if __name__ == '__main__':
     
     # RAG parameters
     do_vector_search = False
-    num_results = 10
+    num_results = 5
     model_handle_llm = 'llama3.2:1b'
 
     # take user input as query, then respond
