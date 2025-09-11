@@ -71,7 +71,7 @@ def make_index_vector(kb_filename, vectors_filename):
 
 def make_index_keyword(kb_filename):
     kb_records = get_kb_records(kb_filename)
-    kwindex = minsearch.Index(text_fields=['title', 'abstract'], \
+    kwindex = minsearch.Index(text_fields=['title', 'abstract', 'journal'], \
     keyword_fields=['author', 'year'])
     kwindex.fit(kb_records)
     return kwindex
