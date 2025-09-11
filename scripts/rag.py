@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 
 
 def vsearch(query, num_results):
-    vectorizer = SentenceTransformer(model_name_or_path='all-MiniLM-L6-v2')
+    vectorizer = SentenceTransformer(model_name_or_path=model_handle_vectorizer)
     query_embedded = vectorizer.encode([query])
     search_result = vindex.search(query_embedded, num_results=num_results)
     return search_result
@@ -77,11 +77,17 @@ def make_index_keyword(kb_filename):
     return kwindex
 
 
-# find the files used for the index
+# get the filenames needed
 rag_script_path = os.path.abspath(__file__)
 kb_filename = rag_script_path.replace('scripts/rag.py', 'data/data-kb.csv')
 vectors_filename = rag_script_path.replace('scripts/rag.py', \
 'data/embed-kb.csv')
+model_handle_filename = rag_script_path.replace('scripts/rag.py', \
+'data/model-handle-vectorizer.txt')
+
+# set vectorizer
+with open(model_handle_filename, 'r') as model_handle_file:
+    model_handle_vectorizer = model_handle_file.readline()
 
 # index for vector search
 if True:
