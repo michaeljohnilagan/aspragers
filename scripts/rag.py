@@ -74,12 +74,20 @@ def make_index_keyword(kb_filename):
     kwindex.fit(kb_records)
     return kwindex
 
+def ask_random(questions_filename):
+    df_synth = pd.read_csv('../data/data-synth-question.csv', sep='\t', \
+    dtype=str)
+    question = df_synth.sample(n=1)['synthetic_question'].values.item()
+    return question
+
 
 # get the filenames needed
 rag_script_path = os.path.abspath(__file__)
 kb_filename = rag_script_path.replace('scripts/rag.py', 'data/data-kb.csv')
 vectors_filename = rag_script_path.replace('scripts/rag.py', \
 'data/embed-kb.csv')
+questions_filename = rag_script_path.replace('scripts/rag.py', \
+'data/data-synth-question.csv')
 
 # RAG constants
 config = {'do_vector_search' : True, \
