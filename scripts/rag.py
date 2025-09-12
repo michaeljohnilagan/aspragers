@@ -81,6 +81,11 @@ kb_filename = rag_script_path.replace('scripts/rag.py', 'data/data-kb.csv')
 vectors_filename = rag_script_path.replace('scripts/rag.py', \
 'data/embed-kb.csv')
 
+# RAG constants
+config = {'do_vector_search' : True, \ 
+'num_results' : 5, \
+'model_handle_llm' : 'llama3.2:1b'}
+
 # index for vector search
 if True:
     vindex = make_index_vector(kb_filename, vectors_filename)

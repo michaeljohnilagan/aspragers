@@ -9,9 +9,9 @@ if __name__ == '__main__':
     ' | AspRAGers is generating a response. Please wait...'+'\n'
     
     # RAG parameters
-    do_vector_search = False
-    num_results = 5
-    model_handle_llm = 'llama3.2:1b'
+    do_vector_search = rag.config['do_vector_search']
+    num_results = rag.config['num_results']
+    model_handle_llm = rag.config['model_handle_llm']
 
     # take user input as query, then respond
     while True:
