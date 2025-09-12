@@ -56,9 +56,8 @@ def rag(query, do_vector_search, num_results, model_handle_llm, seed=None):
 
 def get_kb_records(filename):
     df = pd.read_csv(filename, sep='\t', dtype=str)
-    for column_name in df.columns:
-        df[column_name] = df[column_name].fillna('') # make NAs blank
-    kb_records = df.to_dict('records')
+    df_preprocessed = vectors.preprocess_for_vectorization(df)
+    kb_records = df_preprocessed.to_dict('records')
     return kb_records
     
 def make_index_vector(kb_filename, vectors_filename):
