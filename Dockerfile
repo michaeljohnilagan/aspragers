@@ -13,6 +13,9 @@ COPY start.sh ./start.sh
 # install python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+# download sentence transformer model
+RUN python ./scripts/vectors.py
+
 # install ollama
 RUN curl -L https://ollama.com/download/ollama-linux-amd64.tgz -o ollama-linux-amd64.tgz
 RUN tar -C /usr -xzf ollama-linux-amd64.tgz
