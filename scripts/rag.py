@@ -82,7 +82,7 @@ vectors_filename = rag_script_path.replace('scripts/rag.py', \
 'data/embed-kb.csv')
 
 # RAG constants
-config = {'do_vector_search' : True, \ 
+config = {'do_vector_search' : True, \
 'num_results' : 5, \
 'model_handle_llm' : 'llama3.2:1b'}
 
