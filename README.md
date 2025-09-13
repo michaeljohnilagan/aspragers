@@ -14,7 +14,7 @@ The present project was submitted to DataTalks.Club's [LLM Zoomcamp](https://dat
 
 ## Dataset
 
-The knowledge base contains metadata from a set of articles on PubMed.
+The dataset contains bibliographic information from a set of articles on PubMed.
 Each article (row of the data table) has the following fields (columns of the data table):
 
 * The unique PubMed ID (PMID)
@@ -112,11 +112,36 @@ If doing semantic/vector search, in [`scripts/vectors.py`](scripts/vectors.py) y
 
 The main code for the application is in the following scripts.
 
+* [`cli.py`](cli.py) has the logic of the CLI
 * [`scripts/vectors.py`](scripts/vectors.py) instantiates the SBERT model used to vectorize documents and queries
 * [`scripts/rag.py`](scripts/rag.py) has the main RAG flow
 
-The knowledge base can be refreshed by running the following notebooks.
+When the application starts, the data files are ingested into Minsearch.
+
+The data can be manually refreshed by running the following notebooks.
 
 * [`notebooks/ingest.ipynb`](notebooks/ingest.ipynb) queries PubMed for the documents
 * [`notebooks/embed-kb.ipynb`](notebooks/embed-kb.ipynb) vectorizes the documents queried
+
+## Experiments
+
+Evaluation was done in the following notebooks.
+
+* [`notebooks/synth-question.ipynb`] has the LLM generate questions to be used
+* [`notebooks/eval-retriever.ipynb`] compares semantic/vector search vs. lexical/keyword search for the retriever, by hit rate and mean reciprocal rank (MRR)
+* [`notebooks/synth-answer.ipynb`] answers the LLM-generated questions, using Ollama models `llama3.2:1b` vs. `gemma3:1b`, given a chosen retriever from the previous notebook
+* [`notebooks/eval-fullrag.ipynb`] compares the two Ollama models, by cosine similarity to the abstract
+
+Number of documents retrieved was fixed at 5---no optimization.
+
+### Retrieval evaluation
+
+The preferred retriever was keyword search.
+It had hit rate of 44% and MRR of 37%.
+Note that the low metrics can be attributed to the questions being vague that multiple articles might actually be relevant to each question.
+
+### RAG flow evaluation
+
+The preferred Ollama model was `llama3.2:1b`.
+Its mean cosine similarity was 0.66.
 
