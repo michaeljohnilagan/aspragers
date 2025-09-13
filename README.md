@@ -25,7 +25,7 @@ Each article (row of the data table) has the following fields (columns of the da
 * The article's abstract
 
 The dataset was pulled programmatically from PubMed. 
-You can find the tabular data in [`data/data-kb.csv`](data/data-kb.csv).
+You can find the tabular data in [`data/data.csv`](data/data.csv).
 AspRAGers has functionality to refresh the data (more details below).
 
 ## Technologies
@@ -122,7 +122,7 @@ When the application starts, the data files are ingested into Minsearch.
 The data can be manually refreshed by running the following notebooks.
 
 * [`notebooks/pubmed.ipynb`](notebooks/pubmed.ipynb) queries PubMed for the documents
-* [`notebooks/embed-kb.ipynb`](notebooks/embed-kb.ipynb) vectorizes the documents queried
+* [`notebooks/embed.ipynb`](notebooks/embed.ipynb) vectorizes the documents queried
 
 ## Experiments
 
