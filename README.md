@@ -121,7 +121,7 @@ When the application starts, the data files are ingested into Minsearch.
 
 The data can be manually refreshed by running the following notebooks.
 
-* [`notebooks/ingest.ipynb`](notebooks/ingest.ipynb) queries PubMed for the documents
+* [`notebooks/pubmed.ipynb`](notebooks/pubmed.ipynb) queries PubMed for the documents
 * [`notebooks/embed-kb.ipynb`](notebooks/embed-kb.ipynb) vectorizes the documents queried
 
 ## Experiments
