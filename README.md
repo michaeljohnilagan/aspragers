@@ -127,10 +127,10 @@ The data can be manually refreshed by running the following notebooks.
 
 Evaluation was done in the following notebooks.
 
-* [`notebooks/synth-question.ipynb`] has the LLM generate questions to be used
-* [`notebooks/eval-retriever.ipynb`] compares semantic/vector search vs. lexical/keyword search for the retriever, by hit rate and mean reciprocal rank (MRR)
-* [`notebooks/synth-answer.ipynb`] answers the LLM-generated questions, using Ollama models `llama3.2:1b` vs. `gemma3:1b`, given a chosen retriever from the previous notebook
-* [`notebooks/eval-fullrag.ipynb`] compares the two Ollama models, by cosine similarity to the abstract
+* [`notebooks/synth-question.ipynb`](notebooks/synth-question.ipynb) has the LLM generate questions to be used
+* [`notebooks/eval-retriever.ipynb`](notebooks/eval-retriever.ipynb) compares semantic/vector search vs. lexical/keyword search for the retriever, by hit rate and mean reciprocal rank (MRR)
+* [`notebooks/synth-answer.ipynb`](notebooks/synth-answer.ipynb) answers the LLM-generated questions, using Ollama models `llama3.2:1b` vs. `gemma3:1b`, given a chosen retriever from the previous notebook
+* [`notebooks/eval-fullrag.ipynb`](notebooks/eval-fullrag.ipynb) compares the two Ollama models, by cosine similarity to the abstract
 
 Number of documents retrieved was fixed at 5---no optimization.
 
