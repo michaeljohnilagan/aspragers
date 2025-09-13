@@ -1,7 +1,7 @@
-import pandas as pd
-import minsearch
-import ollama
 import os
+import pandas as pd
+import ollama
+import ingest
 import vectors
 
 
@@ -54,26 +54,6 @@ def rag(query, do_vector_search, num_results, model_handle_llm, seed=None):
     answer = llm(prompt, model_handle_llm, seed)
     return answer
 
-def get_data_records(filename):
-    df = pd.read_csv(filename, sep='\t', dtype=str)
-    df_preprocessed = vectors.preprocess_for_vectorization(df)
-    records = df_preprocessed.to_dict('records')
-    return records
-    
-def make_index_vector(data_filename, vectors_filename):
-    records = get_data_records(data_filename)
-    vectors = pd.read_csv(vectors_filename, header=None, sep=',')
-    vindex = minsearch.VectorSearch(keyword_fields={'author', 'year'})
-    vindex.fit(vectors, records)
-    return vindex
-
-def make_index_keyword(data_filename):
-    records = get_data_records(data_filename)
-    kwindex = minsearch.Index(text_fields=['title', 'abstract', 'journal'], \
-    keyword_fields=['author', 'year'])
-    kwindex.fit(records)
-    return kwindex
-
 def get_random_question(questions_filename):
     df_synth = pd.read_csv(questions_filename, sep='\t', dtype=str)
     question = df_synth.sample(n=1)['synthetic_question'].values.item()
@@ -92,9 +72,7 @@ config = {'do_vector_search' : False, \
 'model_handle_llm' : 'llama3.2:1b'}
 
 # index for vector search
-if True:
-    vindex = make_index_vector(data_filename, vectors_filename)
+vindex = ingest.make_index_vector(data_filename, vectors_filename)
 
-# index for keyword search
-if True:
-    kwindex = make_index_keyword(data_filename)
+# index for keyword index
+kwindex = ingest.make_index_keyword(data_filename)
