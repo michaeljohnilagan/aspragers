@@ -104,6 +104,7 @@ Because they depend on each other, it is best to run the notebooks in the follow
 * [`notebooks/synth-answer.ipynb`](notebooks/synth-answer.ipynb)
 * [`notebooks/eval-fullrag.ipynb`](notebooks/eval-fullrag.ipynb)
 
+Note that some of the notebooks produce CSV files that the app depends on.
 Reproducibility is expected---if some result is not reproducible, please let me know.
 
 ### Other settings that can be changed
