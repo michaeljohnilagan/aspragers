@@ -3,19 +3,21 @@
 There is misinformation online about Asperger's syndrome or autism spectrum disorders.
 We want our information based on published research papers.
 
-The present project **AspRAGers** is a chatbot that answers questions about Asperger's syndrome or autism spectrum disorders, based on abstracts of relevant papers on PubMed.
+The present project **AspRAGers** is a chatbot that answers questions about autism spectrum disorders, based on abstracts of relevant papers on PubMed.
 The "RAG" in the name stands for "retrieval-augmented generation".
+Note that AspRAGers reads only abstracts, not the main text.
 
 As with any large language model (LLM), beware that correctness of the chatbot's response is not guaranteed.
+Think of the response as a starting point to do your own research.
 
 The present project was submitted to DataTalks.Club's [LLM Zoomcamp](https://datatalks.club/courses/llm-zoomcamp/) for its 2025 Cohort.
 
 ## Dataset
 
-The knowledge base contains information from a set of articles on PubMed.
+The knowledge base contains metadata from a set of articles on PubMed.
 Each article (row of the data table) has the following fields (columns of the data table):
 
-* PMID (a unique integer ID on PubMed)
+* The unique PubMed ID (PMID)
 * The article title
 * The journal title
 * The authors' names
@@ -24,46 +26,93 @@ Each article (row of the data table) has the following fields (columns of the da
 
 The dataset was pulled programmatically from PubMed. 
 You can find the tabular data in [`data/data-kb.csv`](data/data-kb.csv).
-To refresh the data (or verify its reproducibility), more details below.
-For semantic search, embeddings for the papers in the dataset can be found in [`data/embed-kb.csv`](data/embed-kb.csv).
+AspRAGers has functionality to refresh the data (more details below).
 
 ## Technologies
 
 * Python 3.10
 * [Docker](https://docker.com) for containerization
-* For vector search, [Sentence Transformers](https://www.sbert.net/) (also known as SBERT) and [Minsearch](https://github.com/alexeygrigorev/minsearch)
-* [Ollama](https://ollama.com/) for the local LLM (so there is no need for an API key)
+* For keyword search, [Minsearch](https://github.com/alexeygrigorev/minsearch)
+* For semantic/vector search, [Sentence Transformers](https://www.sbert.net/) (also known as SBERT) and Minsearch
+* [Ollama](https://ollama.com/) for the local LLM, particularly the 1B version of Llama 3.2 (`llama3.2:1b`)
 
 ## Running the application
 
 ### Running with Docker
 
-To build the Docker image and run it, do as follows.
+The whole app is in one Docker image.
+Building the image installs all the dependencies.
 
 ```bash
 docker build -t aspragers .
+```
+
+The command line interface (CLI) allows you to talk to the chatbot.
+
+```bash
 docker run -it aspragers
+```
+
+Otherwise, you may want to re-query PubMed (to refresh the data), re-run the evaluation experiments, edit settings in the scripts, or download a different Ollama model.
+In that case, you will need a shell with Jupyter notebooks.
+
+```bash
+docker run -it -p 8888:8888 --entrypoint /bin/bash aspragers
 ```
 
 ## Using the application
 
-To use the application, we have a command line interface (CLI).
+### Talking to the chatbot
 
-To ask the chatbot a question, do as follows.
-It starts the Ollama process and executes the Python CLI script.
+The CLI is intuitive.
+You can ask the chatbot your own question, or you can randomly draw a question from the dataset of LLM-generated questions.
+The synthetic questions are in [`data/data-synth-question.csv`](data/data-synth-question.csv).
+
+From the shell, you can talk to the chatbot by executing the start script.
 
 ```bash
 ./start.sh
 ```
 
-You can see how the data was originally produced by following the notebooks [`notebooks/ingest.ipynb`](notebooks/ingest.ipynb) and [`notebooks/embed-kb.ipynb`](notebooks/embed-kb.ipynb).
-To refresh the data, you can convert these notebooks to Python scripts and run them.
-Precisely, do as follows.
+### Using a different Ollama model
+
+From the shell, you can download the Ollama model `gemma3:1b` for example.
+See [Ollama's catalog](https://ollama.com/models) for more models.
 
 ```bash
-cd notebooks
-jupyter nbconvert --to script ingest.ipynb
-python ingest.py
-jupyter nbconvert --to script embed-kb.ipynb
-python embed-kb.py
+ollama serve > /app/ollama.log 2>&1 &
+ollama pull gemma3:1b
 ```
+
+If you want to use an Ollama model you just downloaded, you must make the change in [`cli.py`](cli.py).
+
+### Playing with the Jupyter notebooks
+
+From the shell, you can open Jupyter.
+
+```bash
+jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+```
+
+Follow the notebooks to query PubMed or run the evaluation experiments.
+Because they depend on each other, it is best to run the notebooks in the following order.
+
+* [`notebooks/ingest.ipynb`](notebooks/ingest.ipynb)
+* [`notebooks/embed-kb.ipynb`](notebooks/embed-kb.ipynb)
+* [`notebooks/synth-question.ipynb`](notebooks/synth-question.ipynb)
+* [`notebooks/eval-retriever.ipynb`](notebooks/eval-retriever.ipynb)
+* [`notebooks/synth-answer.ipynb`](notebooks/synth-answer.ipynb)
+* [`notebooks/eval-fullrag.ipynb`](notebooks/eval-fullrag.ipynb)
+
+Reproducibility is expected---if some result is not reproducible, please let me know.
+
+### Other settings that can be changed
+
+In [`cli.py`](cli.py), you can change the RAG behavior:
+
+* Whether to do semantic/vector search (`do_vector_search`), versus keyword search
+* How many documents are retrieved (`num_results`)
+* Which Ollama model to use (`model_handle_llm`), but make sure you pull the model first
+
+If doing semantic/vector search, in [`scripts/vectors.py`](`scripts/vectors.py`) you can change which SBERT model (`model_handle`) is used to vectorize documents.
+
