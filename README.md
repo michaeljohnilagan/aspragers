@@ -96,7 +96,6 @@ jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
 
 Follow the notebooks (more details below) to query PubMed or run the evaluation experiments.
 Note that some of the notebooks produce CSV files that the app depends on.
-Reproducibility is expected---if some result is not reproducible, please let me know.
 
 ### Other settings that can be changed
 
