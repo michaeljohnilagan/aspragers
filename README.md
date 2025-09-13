@@ -114,5 +114,5 @@ In [`cli.py`](cli.py), you can change the RAG behavior:
 * How many documents are retrieved (`num_results`)
 * Which Ollama model to use (`model_handle_llm`), but make sure you pull the model first
 
-If doing semantic/vector search, in [`scripts/vectors.py`](`scripts/vectors.py`) you can change which SBERT model (`model_handle`) is used to vectorize documents.
+If doing semantic/vector search, in [`scripts/vectors.py`](scripts/vectors.py) you can change which SBERT model (`model_handle`) is used to vectorize documents.
 
