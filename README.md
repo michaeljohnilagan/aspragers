@@ -118,7 +118,7 @@ The main code for the application is in the following scripts.
 * [`scripts/ingest.py`](scripts/ingest.py) defines functions used to ingest the data
 * [`scripts/rag.py`](scripts/rag.py) has the main RAG flow
 
-When the application starts, the data files are ingested into Minsearch (when [`scripts/rag.py`](scripts/rag.py) is imported).
+The data files are ingested into Minsearch when [`cli.py`](cli.py) imports [`scripts/rag.py`](scripts/rag.py).
 
 The data can be manually refreshed by running the following notebooks.
 
