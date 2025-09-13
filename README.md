@@ -60,6 +60,8 @@ In that case, you will need a Bash shell with Jupyter notebooks.
 docker run -it -p 8888:8888 --entrypoint /bin/bash aspragers
 ```
 
+Because a local LLM is used, there is no need for an API key.
+
 ## Using the application
 
 ### Talking to the chatbot
