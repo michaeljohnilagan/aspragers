@@ -54,24 +54,24 @@ def rag(query, do_vector_search, num_results, model_handle_llm, seed=None):
     answer = llm(prompt, model_handle_llm, seed)
     return answer
 
-def get_kb_records(filename):
+def get_data_records(filename):
     df = pd.read_csv(filename, sep='\t', dtype=str)
     df_preprocessed = vectors.preprocess_for_vectorization(df)
-    kb_records = df_preprocessed.to_dict('records')
-    return kb_records
+    records = df_preprocessed.to_dict('records')
+    return records
     
-def make_index_vector(kb_filename, vectors_filename):
-    kb_records = get_kb_records(kb_filename)
+def make_index_vector(data_filename, vectors_filename):
+    records = get_data_records(data_filename)
     vectors = pd.read_csv(vectors_filename, header=None, sep=',')
     vindex = minsearch.VectorSearch(keyword_fields={'author', 'year'})
-    vindex.fit(vectors, kb_records)
+    vindex.fit(vectors, records)
     return vindex
 
-def make_index_keyword(kb_filename):
-    kb_records = get_kb_records(kb_filename)
+def make_index_keyword(data_filename):
+    records = get_data_records(data_filename)
     kwindex = minsearch.Index(text_fields=['title', 'abstract', 'journal'], \
     keyword_fields=['author', 'year'])
-    kwindex.fit(kb_records)
+    kwindex.fit(records)
     return kwindex
 
 def get_random_question(questions_filename):
@@ -82,9 +82,9 @@ def get_random_question(questions_filename):
 
 # get the filenames needed
 rag_script_path = os.path.abspath(__file__)
-kb_filename = rag_script_path.replace('scripts/rag.py', 'data/data-kb.csv')
+data_filename = rag_script_path.replace('scripts/rag.py', 'data/data.csv')
 vectors_filename = rag_script_path.replace('scripts/rag.py', \
-'data/embed-kb.csv')
+'data/embedded.csv')
 
 # RAG constants
 config = {'do_vector_search' : False, \
@@ -93,8 +93,8 @@ config = {'do_vector_search' : False, \
 
 # index for vector search
 if True:
-    vindex = make_index_vector(kb_filename, vectors_filename)
+    vindex = make_index_vector(data_filename, vectors_filename)
 
 # index for keyword search
 if True:
-    kwindex = make_index_keyword(kb_filename)
+    kwindex = make_index_keyword(data_filename)
