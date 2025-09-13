@@ -30,4 +30,4 @@ EXPOSE 8888
 # give permission for app to run
 RUN chmod +x ./start.sh
 
-ENTRYPOINT ["bash"]
+ENTRYPOINT ["./start.sh"]
