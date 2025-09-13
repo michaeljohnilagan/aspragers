@@ -54,7 +54,7 @@ docker run -it aspragers
 ```
 
 Otherwise, you may want to re-query PubMed (to refresh the data), re-run the evaluation experiments, edit settings in the scripts, or download a different Ollama model.
-In that case, you will need a shell with Jupyter notebooks.
+In that case, you will need a Bash shell with Jupyter notebooks.
 
 ```bash
 docker run -it -p 8888:8888 --entrypoint /bin/bash aspragers
@@ -94,16 +94,7 @@ From the shell, you can open Jupyter.
 jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
 ```
 
-Follow the notebooks to query PubMed or run the evaluation experiments.
-Because they depend on each other, it is best to run the notebooks in the following order.
-
-* [`notebooks/ingest.ipynb`](notebooks/ingest.ipynb)
-* [`notebooks/embed-kb.ipynb`](notebooks/embed-kb.ipynb)
-* [`notebooks/synth-question.ipynb`](notebooks/synth-question.ipynb)
-* [`notebooks/eval-retriever.ipynb`](notebooks/eval-retriever.ipynb)
-* [`notebooks/synth-answer.ipynb`](notebooks/synth-answer.ipynb)
-* [`notebooks/eval-fullrag.ipynb`](notebooks/eval-fullrag.ipynb)
-
+Follow the notebooks (more details below) to query PubMed or run the evaluation experiments.
 Note that some of the notebooks produce CSV files that the app depends on.
 Reproducibility is expected---if some result is not reproducible, please let me know.
 
@@ -116,4 +107,16 @@ In [`cli.py`](cli.py), you can change the RAG behavior:
 * Which Ollama model to use (`model_handle_llm`), but make sure you pull the model first
 
 If doing semantic/vector search, in [`scripts/vectors.py`](scripts/vectors.py) you can change which SBERT model (`model_handle`) is used to vectorize documents.
+
+## Code
+
+The main code for the application is in the following scripts.
+
+* [`scripts/vectors.py`](scripts/vectors.py) instantiates the SBERT model used to vectorize documents and queries
+* [`scripts/rag.py`](scripts/rag.py) has the main RAG flow
+
+The knowledge base can be refreshed by running the following notebooks.
+
+* [`notebooks/ingest.ipynb`](notebooks/ingest.ipynb) queries PubMed for the documents
+* [`notebooks/embed-kb.ipynb`](notebooks/embed-kb.ipynb) vectorizes the documents queried
 
