@@ -1,0 +1,507 @@
+pmid	ollama_seed	synthetic_question
+40255413	0	Is gastrointestinal (GI) problems more common in individuals with autism spectrum disorders than in the general population?
+40255413	1	Does autism spectrum disorders affect a child's ability to cope with nighttime feedings?
+40255413	2	What is one possible underlying factor contributing to the co-occurrence of gastrointestinal (GI) symptoms in children with autism spectrum disorder (ASD)?
+40255413	3	What is a common challenge that many individuals with autism spectrum disorders face when it comes to maintaining regular physical activity?
+40255413	4	How do gastrointestinal (GI) symptoms affect the daily lives and behaviors of individuals with autism spectrum disorder?
+40264093	0	Is there a link between autism and difficulties with intimacy or relationships?
+40264093	1	How can individuals on the autism spectrum best navigate their sexuality?
+40264093	2	Is Autism more likely to affect a person's ability to form healthy romantic relationships?
+40264093	3	Is there a difference between the prevalence of autism spectrum disorder and the prevalence of other conditions that can also affect sexual experiences?
+40264093	4	Can individuals with Autism Spectrum Disorder experience difficulties with intimate relationships due to their unique communication styles and sensory sensitivities?
+40270009	0	What are some ways that researchers can better understand the impact of Dialectical Behavior Therapy (DBT) on individuals with autism spectrum disorders who experience extreme emotional difficulties?
+40270009	1	Can researchers use Real-time data from Ecological Momentary Assessments (EMAs) to inform and improve the effectiveness of DBT for autistic adults who struggle with emotion regulation?
+40270009	2	What role does social interaction play in the development and maintenance of emotional regulation difficulties in individuals with autism spectrum disorders?
+40270009	3	What are the key challenges in conducting Ecological Momentary Assessment (EMA) and physiological measurements in individuals with autism who experience significant emotion dysregulation?
+40270009	4	How do some individuals on the autism spectrum experience emotional regulation issues that may impact their response to DBT therapy?
+40276113	0	What role do social interactions play in the development and progression of autism spectrum disorders?
+40276113	1	How is artificial intelligence impacting the diagnosis and treatment of attention deficit hyperactivity disorder?
+40276113	2	What are the potential benefits and drawbacks of using artificial intelligence in the diagnosis and treatment of attention deficit hyperactivity disorder (ADHD)?
+40276113	3	What role do artificial intelligence systems play in the diagnosis and treatment of attention deficit hyperactivity disorder (ADHD)?
+40276113	4	Is artificial intelligence potentially used to diagnose or treat Attention Deficit Hyperactivity Disorder (ADHD)?
+40287553	0	What are the underlying neural mechanisms that contribute to social behaviors in individuals with autism spectrum disorder?
+40287553	1	Is social interaction and behavior regulated by a complex neural network that can be influenced by genetic and environmental factors?
+40287553	2	What are the key differences between individuals on the autism spectrum who have a high-functioning autism versus those who have an impaired functioning version?
+40287553	3	What are some common social behaviors that individuals with autism spectrum disorder (ASD) exhibit?
+40287553	4	How do social interactions impact cognitive function and mental health?
+40290839	0	What is one of the primary differences between the Feldenkrais method and the Anat Baniel Method in terms of their focus on sensory integration and processing?
+40290839	1	Does movement therapy (such as Feldenkrais or Anat Baniel Method) have been proven to be effective for individuals on the autism spectrum?
+40290839	2	What is unique about the way people with autism often experience movement and balance?
+40290839	3	What is the primary difference between the Feldenkrais method and the Anat Baniel Method in terms of their focus on movement?
+40290839	4	How do autistic individuals often respond to sensory input in situations where it is loud or overwhelming?
+40295949	0	What is the relationship between the implementation of person-centered interventions and increased autonomy or self-efficacy among people with low-income, marginalized populations?
+40295949	1	How are autism-like traits affecting the ability of low-resource settings to provide effective support and services for people with schizophrenia?
+40295949	2	What is one key factor that can help individuals with autism spectrum disorders maintain their sense of self-worth and autonomy in low-resource settings?
+40295949	3	What is a key difference between autism spectrum disorders and schizophrenia?
+40295949	4	What role do cultural and linguistic barriers play in the ability of PLWS to access and benefit from person-centered interventions?
+40298931	0	What role, if any, does the gut microbiome play in the development or progression of autism spectrum disorders?
+40298931	1	How effective is it to use probiotics or fecal microbiota transplantation for treating autism symptoms?
+40298931	2	What role, if any, do the gut microbiota play in the development or exacerbation of symptoms in individuals with autism?
+40298931	3	What role does the gut microbiome play in the development or progression of autism spectrum disorder?
+40298931	4	Is the link between gut microbiota and ASD a matter of correlation or causation?
+40302612	0	What is a common symptom that many individuals with autism experience?
+40302612	1	How do changes in oligodendrocyte function affect microglial modulation in autism?
+40302612	2	What is a key difference between autistic individuals with typical development and those on the autism spectrum that microglial activity has been observed?
+40302612	3	What is the current understanding of how microglia influence the development or progression of autism?
+40302612	4	Is there a connection between brain cells that help process sensory information and people with autism?
+40304098	0	"Here's a question that can be answered by the abstract:
+
+Can the exclusion of autistic voices from intervention decisions in clinical practice lead to ineffective or unfair support?"
+40304098	1	"""Can the limitations of high-quality research evidence justify rejecting evidence-based practice in autism care?"""
+40304098	2	What does it mean for a neurodiversity-affirming approach to prioritize the voices and perspectives of autistic individuals in decision-making processes?
+40304098	3	What role should autistic individuals play in shaping the development of evidence-based interventions for autism spectrum disorders?
+40304098	4	How can a clinician ensure that they are providing meaningful, inclusive care for individuals with autism by integrating the perspectives of autistic people and clinicians when evaluating emerging interventions?
+40310103	0	What role do sensory processing difficulties play in the effectiveness of AR-based educational interventions for individuals with autism spectrum disorder?
+40310103	1	Does Augmented Reality have a Place in Improving Cognitive and Academic Skills in Children with Autism?
+40310103	2	What are the potential benefits and limitations of using augmented reality (AR) for teaching autistic individuals?
+40310103	3	What role do augmented reality (AR) tools play in helping individuals with autism spectrum disorder (ASD) develop social and communication skills?
+40310103	4	Is augmented reality-based interventions effective for improving cognitive and academic skills in children with autism spectrum disorder?
+40324673	0	What role do sensory experiences play in the development and management of anxiety disorders in individuals with autism?
+40324673	1	Is autism a direct cause of anxiety disorders?
+40324673	2	What role does cognitive-behavioural therapy (CBT) play in managing anxiety disorders in individuals with autism spectrum disorder?
+40324673	3	What role do mental health professionals play in helping autistic individuals manage their anxiety?
+40324673	4	What is a common challenge that autistic individuals face when it comes to accessing effective anxiety treatments?
+40325287	0	What is the main purpose of early intervention in autism?
+40325287	1	Does early intensive behavioral interventions in infancy have a positive impact on cognitive and social development?
+40325287	2	What is the best way to determine if an infant with autism needs early behavioral intervention?
+40325287	3	What is the primary benefit of early behavioral intervention in infancy and toddlerhood for children with autism spectrum disorders?
+40325287	4	How do early interventions targeting infancy and toddlerhood impact developmental outcomes in children with autism spectrum disorders?
+40331055	0	What role do maternal smoking habits play in relation to fetal brain development?
+40331055	1	How does prenatal exposure to pollutants, such as air quality, potentially affect a child's early developmental trajectory in terms of their emotional and social functioning?
+40331055	2	What role do genetic factors play in determining an individual's risk of developing autism spectrum disorders?
+40331055	3	What role do prenatal environmental factors, such as air pollutants, play in shaping a child's brain development and long-term health outcomes?
+40331055	4	What is one possible explanation for why children with autism spectrum disorders may be more likely to experience developmental delays or intellectual disabilities?
+40331861	0	What is the main difference between ectopic action potentials (EAPs) and normal action potentials in people with Dravet syndrome (DS)?
+40331861	1	Does action potential frequency along the distal axon vary in individuals with Dravet syndrome?
+40331861	2	What is thought to be a key mechanism underlying the impaired excitability of cerebral cortex parvalbumin-positive fast-spiking GABAergic interneurons (PVINs) in Dravet syndrome?
+40331861	3	What is the relationship between impaired action potential propagation along axons of cerebral cortex parvalbumin-positive fast-spiking GABAergic interneurons (PVINs) and the development or severity of Dravet syndrome (DS)?
+40331861	4	How does the presence of impaired action potential propagation along the cerebral cortex affect the excitability of neurons in individuals with Dravet syndrome?
+40335664	0	What is the primary concern that most Autistic adults have when it comes to genetic testing for autism?
+40335664	1	How common are social interactions that involve misunderstandings between people with autism and those without?
+40335664	2	What role does societal stigma play in shaping individuals with Autism Spectrum Disorder's attitudes towards genetic testing?
+40335664	3	What is a common misconception that many people with autism have about genetic testing?
+40335664	4	What are some common misconceptions or biases that individuals with autism spectrum disorders may hold about genetic testing for their condition?
+40348275	0	What is one reason why some people with autism may have trouble understanding sarcasm or humor?
+40348275	1	How can microbiome changes be used to improve behavior in individuals with autism?
+40348275	2	What role does the gut microbiome play in autism spectrum disorder?
+40348275	3	What is the current understanding of how gut bacteria contribute to autism symptoms?
+40348275	4	Is there evidence to support the idea that changes to gut bacteria can improve symptoms of autism?
+40348332	0	What is the current understanding of how endocannabinoids (eCBs) such as N-acylethanolamine (NAE) and 2-arachidonoylglycerol (2-AG) contribute to the development and symptoms of autism spectrum disorder?
+40348332	1	Is there a definitive cure or treatment for autism spectrum disorder?
+40348332	2	What is the potential role of endocannabinoids in mitigating social and repetitive behaviors in individuals with autism spectrum disorder?
+40348332	3	What is the primary difference between the effects of endocannabinoids (e.g., N-acylethanolamine and 2-arachidonoylglycerol) on social deficits in autism spectrum disorder?
+40348332	4	How do the endocannabinoids involved in this study (NAE and 2-AG) influence social behavior and restricted/repetitive behaviors in individuals with autism spectrum disorder?
+40365849	0	What are some potential correlations between avoidant/restrictive food intake disorder (ARFID) and autism spectrum disorder (ASD)?
+40365849	1	How are common features or symptoms of Autism Spectrum Disorder commonly understood to be related to or differing from other conditions, such as Avoidant/Restrictive Food Intake Disorder (ARFID)?
+40365849	2	What is a common characteristic or behavior that often appears alongside autism spectrum disorders in individuals with avoidant/restrictive food intake disorder?
+40365849	3	What are some common differences or similarities between individuals with autism spectrum disorders (ASD) and those who experience avoidant/restrictive food intake disorder (ARFID)?
+40365849	4	Is there a connection between avoiding certain foods and having difficulties understanding social cues, such as facial expressions or tone of voice?
+40369905	0	What are the key factors that contribute to suicidal ideation among individuals with autism spectrum disorder (ASD)?
+40369905	1	How are anxiety symptoms and insomnia related to suicidal ideation in individuals with autism spectrum disorder (ASD)?
+40369905	2	What are the primary factors that contribute to suicidal ideation among individuals with autism spectrum disorder?
+40369905	3	What are some common characteristics or traits that are commonly associated with autism spectrum disorder (ASD) that are overlooked or underreported in the general population?
+40369905	4	Can machine learning algorithms be used to identify specific patterns associated with increased suicidal ideation among young people with autism spectrum disorder (ASD)?
+40372603	0	What is one potential challenge that autistic adults may face in their careers when transitioning out of a training or preparation program for employment?
+40372603	1	Can a lack of accessible job training programs be one of the underlying factors contributing to the unemployment rates among autistic adults?
+40372603	2	What do you think are some common challenges that autistic adults face in finding employment?
+40372603	3	What is a common challenge that autistic individuals face in their transition to employment?
+40372603	4	How do autistic adults perceive the effectiveness of employment programs tailored specifically for their needs?
+40374059	0	What role does EphB2 play in the development and progression of neurological disorders?
+40374059	1	How do changes in EphB2 levels affect the process of forming and recalling memories?
+40374059	2	What causes a significant decline in the ability to form new memories when people are exposed to strong emotions or sensory stimuli on repeated occasions?
+40374059	3	What role do genetic variations in the EphB2 gene play in the development or progression of neurological disorders such as Alzheimer's disease?
+40374059	4	Is there a link between EphB2 and the neural mechanisms underlying social interactions and emotional regulation in individuals with autism spectrum disorder?
+40375535	0	What is the main takeaway from this study on the relationship between atopic dermatitis and psychiatric disorders?
+40375535	1	Is atopic dermatitis more commonly associated with psychiatric disorders in children?
+40375535	2	What is a key difference between anxiety disorders and depression?
+40375535	3	What is the current understanding of how atopic dermatitis may be linked to autism spectrum disorder?
+40375535	4	How does genetic predisposition affect the development of autism spectrum disorders?
+40381091	0	What factors influence the likelihood of autistic adults experiencing anxiety symptoms when struggling with everyday inhibitory control difficulties?
+40381091	1	Is it true that those who are more female have difficulty controlling their impulses compared to those who are more male?
+40381091	2	What do you think is the most significant factor contributing to the higher levels of anxiety symptoms among autistic adults compared to their non-autistic counterparts?
+40381091	3	What factors contribute to the development of anxiety symptoms among individuals with autism spectrum disorder?
+40381091	4	How do sex differences influence the relationship between inhibition challenges and anxiety symptoms among autistic adults?
+40388040	0	What is the main difference in brain structure between individuals with autism spectrum disorder (ASD) compared to typically developing peers?
+40388040	1	Is Autism Spectrum Disorder characterized by both underconnectivity within specific brain networks, such as the frontal and parietal lobes, and overconnectivity between these networks?
+40388040	2	What are some common characteristics or behaviors that can be associated with impaired segregation of functional networks, specifically within-underconnectivity and between-overconnectivity in individuals with Autism Spectrum Disorder?
+40388040	3	What is the primary difference in brain structure and function between individuals with Autism Spectrum Disorder (ASD) compared to typically developed children?
+40388040	4	How do autism spectrum disorder (ASD) symptoms, particularly social difficulties, relate to differences in brain network structure compared to typically developed peers?
+40392909	0	Is there sufficient evidence to support a clear link between moderate to heavy alcohol consumption and increased risks of developing pancreatic cancer?
+40392909	1	How common are children with autism spectrum disorders who go on to develop certain types of brain tumors?
+40392909	2	What causes individuals on the autism spectrum to have a different response to certain substances like alcohol compared to neurotypical people?
+40392909	3	What are some common characteristics that autistic individuals often exhibit in their daily lives?
+40392909	4	Does alcohol consumption affect the risk of developing pancreatic cancer?
+40402836	0	How does food preference in individuals with autism spectrum disorder impact their nutritional intake?
+40402836	1	Can excessive food preferences in individuals with autism spectrum disorder lead to difficulties with adequate nutrition?
+40402836	2	What role does restrictive eating play in the development of malnutrition among individuals with autism spectrum disorder?
+40402836	3	What role do individuals with autism spectrum disorder play in the development of eating habits and nutritional deficiencies?
+40402836	4	Does a preference for certain foods or textures contribute to the development of food selectivity in individuals with autism spectrum disorder?
+40404488	0	What challenges do autistic mothers face when trying to incorporate yoga into their self-care routine?
+40404488	1	Can parents of individuals with autism find a sense of purpose and fulfillment through participating in yoga?
+40404488	2	What can mothers of autistic children learn from yoga that would benefit them as well?
+40404488	3	What are the challenges that mothers of autistic children face when trying to incorporate healthy behaviors into their daily lives?
+40404488	4	Is it possible that yoga can be a valuable tool for improving the mental health and well-being of mothers with autistic children?
+40413384	0	What is one reason why some people with autism may experience gastrointestinal (GI) problems?
+40413384	1	Does probiotic treatment help alleviate gastrointestinal symptoms in children with autism spectrum disorder?
+40413384	2	What role does gut microbiome play in the development or management of autism spectrum disorder?
+40413384	3	What is the relationship between probiotic supplementation and the effectiveness of probiotics in reducing symptoms of autism?
+40413384	4	Is there a link between probiotics and improving social interactions for people with autism?
+40414821	0	What is the estimated risk of autism spectrum disorder among children exposed to labor epidural analgesia?
+40414821	1	Does prenatal exposure to opioids increase the risk of autism?
+40414821	2	What is the correlation between LEA use in pregnant women and the risk of ASD in their children?
+40414821	3	What is the relationship between prenatal exposure to LEA and the risk of developing ASD in children?
+40414821	4	Is there a known correlation between LEA use in pregnant women and an increased risk of ASD in their children?
+40418005	0	What is one major difference between autistic individuals who experience positive symptoms (e.g., hallucinations) and those who experience negative symptoms that significantly impact their daily lives?
+40418005	1	How common are autistic traits that don't include obvious social or communication difficulties?
+40418005	2	What role do societal expectations play in shaping the experiences of individuals on the autism spectrum?
+40418005	3	What is the primary difference between negative and positive symptoms in psychiatric disorders?
+40418005	4	Is negative symptoms a significant contributor to overall quality of life and functional outcomes in individuals with autism spectrum disorder?
+40420478	0	What is a primary difference in how individuals with autism spectrum disorder (ASD) process facial emotions compared to those without it?
+40420478	1	How do individuals with autism spectrum disorder interact with facial expressions?
+40420478	2	What is thought to be a key difference between individuals with autism spectrum disorder (ASD) and those with conduct disorder (CD)?
+40420478	3	What is the primary difference in how individuals with autism spectrum disorder (ASD) process facial emotions compared to those without?
+40420478	4	How do brain regions involved in social cognition, such as the fusiform gyrus, differ between individuals with autism spectrum disorder (ASD), conduct disorder (CD), and typical developing children?
+40426452	0	How do children with autism spectrum disorder (ASD) differ from those without it when interacting with animals?
+40426452	1	Can individuals with Autism Spectrum Disorder have a preferred method for understanding others' emotions through facial expressions?
+40426452	2	What are the main differences in how individuals with Autism Spectrum Disorder (ASD) and those without it interact with animals?
+40426452	3	What role do caregivers play in supporting children with autism spectrum disorders to develop healthy social interactions?
+40426452	4	How do children with Autism Spectrum Disorder interact differently with their animal assistance dogs compared to those without the disorder?
+40435892	0	What is the primary difference between the typical adolescent sleep pattern and that of individuals with autism spectrum disorder?
+40435892	1	Does autism spectrum disorder influence sleep patterns during adolescence?
+40435892	2	What factors can contribute to changes in sleep-wake patterns among adolescents with autism spectrum disorder?
+40435892	3	What is a typical age range for experiencing changes in sleep-wake patterns during adolescence?
+40435892	4	Is there a link between changes in sleep-wake patterns and the onset or severity of symptoms in individuals with ASD?
+40437788	0	What percentage of children with Wolf-Hirschhorn syndrome (WHS) are diagnosed with autism spectrum disorder (ASD)?
+40437788	1	How does the overlap between autism spectrum disorder (ASD) and Wolf-Hirschhorn syndrome (WHS) affect diagnosis, treatment, and overall well-being for affected children?
+40437788	2	What do clinicians believe are the primary differences between autism spectrum disorder (ASD) and Wolf-Hirschhorn syndrome (WHS) when it comes to social functioning?
+40437788	3	What percentage of individuals with Wolf-Hirschhorn syndrome (WHS) have been diagnosed with autism spectrum disorder (ASD)?
+40437788	4	What is one way that autism spectrum disorder (ASD) can co-occur or be misdiagnosed with Wolf-Hirschhorn syndrome (WHS)?
+40450641	0	What is the main purpose of studying mitochondrial DNA (mtDNA) variants in the ND2 gene in autism spectrum disorder (ASD)?
+40450641	1	"Here's a general question about autism spectrum disorder that can be answered by the abstract:
+
+What are the most significant differences in biochemical parameters between children with autism spectrum disorder (ASD) and those without?"
+40450641	2	What are the main differences between individuals with autism spectrum disorder (ASD) who have a history of living in developing countries versus those from developed countries?
+40450641	3	What is the primary difference between individuals with autism spectrum disorder (ASD) and those without it, based on their mitochondrial DNA variants and biochemical parameters?
+40450641	4	How do changes in mitochondrial DNA (mtDNA) affect the biochemical parameters of individuals with autism spectrum disorder (ASD)?
+40454245	0	What is the key finding about how early-life exposure to a GABAA receptor antagonist impacts social interaction and repetitive behaviors in mice with autism-like symptoms?
+40454245	1	Is a specific condition characterized by difficulties with social interaction and repetitive behaviors in males that can be caused or exacerbated by exposure to a certain medication before birth?
+40454245	2	What is the most significant difference in social interaction between individuals with autism spectrum disorder (ASD) and those without?
+40454245	3	What is the relationship between early-life exposure to the neurotransmitter gamma-aminobutyric acid (GABA) and the development of autism spectrum disorder (ASD)?
+40454245	4	How does the early-life modulation of the GABAergic system impact the development of autism-like behaviors in mice?
+40454682	0	What is one potential challenge that children with autism may face when trying to use augmentative and alternative communication (AAC) systems?
+40454682	1	How are brain-computer interface technology being used to aid individuals with autism spectrum disorders?
+40454682	2	What role does touch-based augmentative and alternative communication (AAC) play in helping individuals with autism or developmental disabilities to express themselves effectively?
+40454682	3	What is the main challenge in developing effective augmentative and alternative communication (AAC) systems that can be used by children with autism?
+40454682	4	Is brain-computer interface technology more suitable for individuals with intellectual and developmental disabilities?
+40460469	0	What are the key differences between the psychological distress experienced by autistic individuals who have been exposed to war and terrorism compared to non-autistic individuals?
+40460469	1	How can parents best support their autistic child's mental health during times of high stress or trauma?
+40460469	2	What do autistic children's brains process when they experience sudden and intense fear or anxiety in response to a catastrophic event like war?
+40460469	3	What are some common challenges that autistic individuals face when exposed to stressful or traumatic situations?
+40460469	4	How do autism symptoms typically manifest in individuals with a history of war exposure?
+40462172	0	What are the main reasons why some people with autism spectrum disorder (ASD) might have difficulty engaging in physical activities or participating in ASD sports?
+40462172	1	Does promoting physical activity among individuals with autism spectrum disorder (ASD) through family sentiments play a significant role in their overall well-being?
+40462172	2	What factors influence how autistic individuals and their families perceive the benefits and challenges of participating in sports?
+40462172	3	What are some common misconceptions about autism spectrum disorder that are perpetuated by family members and others who may not fully understand the experiences of individuals with ASD?
+40462172	4	Is there something unique about how people with autism respond to physical activities like sports?
+40465190	0	What role do parents with autism play in shaping the expectations and behaviors of healthcare providers when it comes to children with autism?
+40465190	1	Is language use among mothers of children with autism spectrum disorders an effective way to convey complex emotions and experiences?
+40465190	2	What does research on mothers' narratives about parenting children with autism suggest about the ways in which they experience stress and self-care?
+40465190	3	"What role does the concept of ""mothering"" play in shaping the language and understanding of caregivers of children with autism spectrum disorders?"
+40465190	4	What is one potential benefit of using metaphor in storytelling when describing the experiences of mothers with children on the autism spectrum?
+40470058	0	What is the main difference between a typical child's language development and that of someone who has autism spectrum disorder (ASD)?
+40470058	1	How does the specific facial features of individuals with autism spectrum disorder typically manifest?
+40470058	2	What is one characteristic that is often associated with autism spectrum disorders?
+40470058	3	What is a common characteristic that distinguishes individuals with autism spectrum disorders (ASD) from those without it?
+40470058	4	Is there a typical age range at which symptoms of autism spectrum disorder (ASD) start to appear?
+40471548	0	What is the relationship between oxytocin (OT) and opioid systems in regulating social behavior?
+40471548	1	Is it possible that a combination of oxytocin (OT) and an opioid antagonist could be used together to effectively treat individuals with autism?
+40471548	2	What are some potential long-term effects of combining oxytocin (OT) with opioid antagonists on social behavior in individuals with autism spectrum disorder?
+40471548	3	What is the main challenge in studying the interaction between oxytocin (OT) and opioid systems in regulating social behavior?
+40471548	4	How do pharmaceutical interventions that target oxytocin (OT) typically affect individuals with autism spectrum disorders?
+40481911	0	What role do individual differences in cognitive style play in the effectiveness of speech-generating devices with verbal requests for children with autism spectrum disorder?
+40481911	1	Is verbal communication challenging for individuals with autism?
+40481911	2	What role does the timing of verbal reinforcement play in shaping the way individuals with autism spectrum disorders communicate?
+40481911	3	What role do parents play in supporting the communication needs of their children with autism spectrum disorders?
+40481911	4	How do children with autism spectrum disorder who have difficulties with verbal communication adapt when they can delay receiving immediate feedback after making a request?
+40485335	0	What is the role of a specific glycine residue (G443) in the human GABA transporter 1 (hGAT-1)?
+40485335	1	Is it true that research on autism spectrum disorder has led to a better understanding of how certain genetic mutations can impair GABA transport, which in turn may contribute to the symptoms seen in individuals with autism?
+40485335	2	What are some common characteristics or symptoms that autism spectrum disorder (ASD) causes in individuals?
+40485335	3	What is the primary function of the glycine residue at position 443 (G443) in the human GABA transporter 1 (hGAT-1)?
+40485335	4	Is autism spectrum disorder caused by a specific genetic mutation affecting brain chemistry?
+40490642	0	What role do cultural background and language use play in shaping social interactions for individuals with autism spectrum disorders?
+40490642	1	Can you explain why some autistic individuals may have a stronger inclination towards tasks that require local processing?
+40490642	2	What can be said about the relationship between visual processing abilities and social difficulties in individuals with autism spectrum disorder?
+40490642	3	What role do visual processing skills play in individuals with autism spectrum disorders?
+40490642	4	Is there an association between individuals with autism who are skilled at visual processing tasks and those who struggle with social interactions?
+40496977	0	What is the main difference between Rett syndrome and autism spectrum disorders?
+40496977	1	Is there a known difference in brain structure or function between individuals with Rett syndrome and those without it?
+40496977	2	What is the primary genetic basis of Rett syndrome?
+40496977	3	What is the primary genetic basis of Rett syndrome?
+40496977	4	Is Rett syndrome primarily linked to genetic mutations affecting brain function?
+40497022	0	What role does antioxidants like luteolin play in treating or managing Autism Spectrum Disorder (ASD)?
+40497022	1	How do researchers assess the impact of antioxidants like luteolin on oxidative stress caused by propionic acid in individuals with Autism Spectrum Disorder?
+40497022	2	What role does the gut play in the development or progression of Autism Spectrum Disorder?
+40497022	3	What role do gut microbiota play in the development or progression of Autism Spectrum Disorder (ASD)?
+40497022	4	Is there evidence that certain compounds can help alleviate symptoms of Autism Spectrum Disorder?
+40500588	0	What role do social cues play in the development of autism spectrum disorder?
+40500588	1	Can parents use timing of their child's interactions with others as an early indicator of autism spectrum disorder?
+40500588	2	What factors can influence the development of synchronous interactions in infants with autism spectrum disorder?
+40500588	3	What role do parents play in shaping their children's social skills and development?
+40500588	4	How do researchers assess changes in social interactions that can help predict autism spectrum disorder?
+40512616	0	What is the impact of maternal vitamin D levels on the development of autism-like symptoms in children?
+40512616	1	Can high vitamin D levels alleviate gastrointestinal immune dysfunction in children with autism spectrum disorders?
+40512616	2	What is one possible underlying mechanism for why some children with autism spectrum disorders may be more susceptible to gastrointestinal problems?
+40512616	3	What is the relationship between vitamin D levels during pregnancy and the risk of autism in children?
+40512616	4	Is there a relationship between vitamin D levels in mothers during pregnancy and the development of autism-like symptoms in their children?
+40521005	0	What are some common challenges that individuals with autism spectrum disorders face when trying to tell stories or convey meaning through narratives?
+40521005	1	Is it more likely for individuals with autism to struggle with telling stories or remembering events in a coherent way than those without autism?
+40521005	2	What are the key differences in narrative abilities between children with autism spectrum disorders and typically developing children?
+40521005	3	What are some common challenges that individuals with autism often face when it comes to understanding and interpreting stories?
+40521005	4	How do individuals with autism spectrum disorders typically understand the difference between a story that starts in the present and one that jumps back in time?
+40542891	0	What is the significance of identifying a specific genetic variation in the MARK2 gene that has been linked to autism spectrum disorder (ASD)?
+40542891	1	How is the risk of autism spectrum disorder associated with genetic variations, particularly in the MARK2 gene?
+40542891	2	What is the relationship between genetic variations in the MARK2 gene and the development of autism spectrum disorders?
+40542891	3	What is the relationship between genetic variations in the MARK2 gene and the development of autism spectrum disorder?
+40542891	4	Is autism caused by genetic factors?
+40549282	0	What factors contribute to differing sleep patterns between individuals with Down syndrome (DS), higher familial likelihood of autism (HL) and lower familial likelihood of autism (LL)?
+40549282	1	Is night wakefulness an early indicator of autism that differs across clinical populations?
+40549282	2	What are the differences in sleep patterns between children with Down syndrome, high familial likelihood of autism, and low familial likelihood of autism?
+40549282	3	What factors contribute to differences in sleep patterns between individuals with Down syndrome, higher familial likelihood of autism, and lower familial likelihood of autism?
+40549282	4	How do children with autism spectrum disorders (ASD) typically experience and express nighttime sleep?
+40556110	0	What role do cultural norms play in shaping how autism is perceived and understood by individuals on the spectrum?
+40556110	1	How are autistic people perceived by society?
+40556110	2	What do different groups within society understand autism to be in order to influence public opinion and policy regarding the relationship between autism and trans identities?
+40556110	3	What role do autistic individuals play in shaping societal attitudes towards transgender identities?
+40556110	4	How do people who identify as autistic or have autism-like symptoms navigate the complex process of transitioning or identifying as trans in a society that often seeks to define and control their experiences?
+40567447	0	What are some potential reasons why individuals with Autism Spectrum Disorder (ASD) may experience difficulties with social interactions?
+40567447	1	Is it possible to use Graph Neural Networks (GNNs) to study the brain's functional connectivity in autism spectrum disorder?
+40567447	2	What role do gray matter volumes play in the development of Autism Spectrum Disorder?
+40567447	3	What are some potential causes or contributing factors that researchers have found in individuals with Autism Spectrum Disorder (ASD)?
+40567447	4	How do different regions of the brain contribute to the characteristic symptoms of Autism Spectrum Disorder?
+40612488	0	What is a typical characteristic of individuals with Rett Syndrome?
+40612488	1	Can genetic factors account for a significant portion of autism cases?
+40612488	2	What is Rett Syndrome's primary characteristic that affects its high female prevalence rate?
+40612488	3	What is the primary difference between Rett Syndrome and other neurodevelopmental disorders that affects girls?
+40612488	4	Is Rett Syndrome linked to a specific genetic mutation that can be identified through DNA testing?
+40622845	0	What is the main difference between autistic individuals who have been exposed to valproic acid (VPA) as fetuses and those who are not exposed?
+40622845	1	Is the administration of Ginsenoside Rg1 via Sirt2/Foxo1 signaling effective in alleviating autistic behaviors in mice?
+40622845	2	What is the most effective dose of Ginsenoside Rg1 in reducing autism-like behaviors in mice prenatally exposed to valproic acid?
+40622845	3	What is the primary mechanism by which Ginsenoside Rg1 exerts its effects on autism-like behaviors in mice exposed to valproic acid?
+40622845	4	How does the administration of Ginsenoside Rg1 impact the development of autism-like behaviors in mice prenatally exposed to valproic acid?
+40625432	0	What are some ways that neurodiverse individuals, including those on the autism spectrum, may benefit from a more tailored approach to treatment or therapy for eating disorders like anorexia nervosa?
+40625432	1	Does research suggest a link between autism spectrum disorders and eating disorders like anorexia nervosa?
+40625432	2	What do research studies suggest about the relationship between autism spectrum disorders and anorexia nervosa?
+40625432	3	What are the potential differences in brain function between individuals with anorexia nervosa (AN) who also have autism spectrum disorder (ASD)?
+40625432	4	Is there a relationship between autism spectrum disorder and anorexia nervosa that can be understood through brain function?
+40629082	0	What are the common diagnostic evaluations and monitoring strategies for infants with congenital cytomegalovirus (cCMV) infection?
+40629082	1	How does the frequency and severity of sensorineural hearing loss (SNHL) in congenital cytomegalovirus (cCMV) infection correlate with the overall risk of autism spectrum disorders (ASD)?
+40629082	2	What is a common long-term disability that can occur in infants with congenital cytomegalovirus (cCMV) infection, and what are some factors that contribute to its development?
+40629082	3	What are the most common long-term disabilities associated with congenital cytomegalovirus (cCMV) infection that can be prevented or minimized through early intervention?
+40629082	4	"Here's a general question about autism that can be answered by the abstract:
+
+What is being done to better understand and predict the long-term outcomes for infants with congenital cytomegalovirus (cCMV) infection?"
+40635406	0	What is the impact on mental health when autistic individuals suppress their autistic traits due to social pressures?
+40635406	1	Can autism masking perpetuate mental health issues in autistic adults by altering their perception of social interactions?
+40635406	2	What role does masking play in the lives of autistic individuals, particularly when it comes to their mental health?
+40635406	3	What is the relationship between social masking and mental health outcomes in autistic individuals?
+40635406	4	"How do autistic individuals typically cope with the social pressure to ""mask"" or hide their autistic traits?"
+40642101	0	What is the main reason why PTEN mutations are strongly associated with autism spectrum disorder?
+40642101	1	Is PTEN mutations being studied as a potential cause of ASD?
+40642101	2	What is one possible underlying mechanism contributing to the increased prevalence of macrocephaly in individuals with autism spectrum disorder?
+40642101	3	What is the role of PTEN in the development and regulation of GABAergic interneurons in autism spectrum disorder?
+40642101	4	How does PTEN's role in regulating GABAergic interneurons impact the development and characteristics of individuals with autism spectrum disorder?
+40663711	0	What are the main challenges that caregivers of individuals with profound autism face in terms of their emotional well-being and ability to meet their basic needs?
+40663711	1	Can the presence of severe autism in caregivers significantly impact their ability to manage daily tasks and maintain a healthy work-life balance?
+40663711	2	What role do caregivers play in supporting individuals with profound autism, and how does their involvement affect the individual's overall well-being?
+40663711	3	What are some common challenges that caregivers of individuals with autism face in terms of their own well-being?
+40663711	4	Is there a significant impact of profound autism on caregivers' ability to care for their children?
+40677259	0	What is the most common reason why children with autism spectrum disorder are prescribed medications?
+40677259	1	How are medications generally prescribed for children with autism spectrum disorders?
+40677259	2	What are some common misconceptions about autism spectrum disorders that affect the way they are perceived by parents and individuals who care for them?
+40677259	3	What is the main difference between typical antipsychotics and atypical antipsychotics in terms of their effectiveness and side effect profiles for children with autism spectrum disorder (ASD)?
+40677259	4	What is the most common reason why children with autism spectrum disorder (ASD) are prescribed medications?
+40679751	0	What role do societal expectations and stigma play in contributing to the higher prevalence of self-harm among autistic females?
+40679751	1	Is it true that research suggests a link between societal and environmental factors in the prevalence of self-harm among autistic females?
+40679751	2	What do researchers believe is driving the higher prevalence of self-harm among autistic females compared to those without autism?
+40679751	3	What role do societal expectations and stigma play in contributing to the higher prevalence of self-harm among autistic females?
+40679751	4	Is there more research needed on how environment plays a role in the prevalence of self-harm among autistic females?
+40686440	0	What are some common characteristics or behaviors that women with autism spectrum disorder often exhibit?
+40686440	1	How often are individuals with autism spectrum disorder (ASD) diagnosed by age 18?
+40686440	2	What factors are most commonly associated with the camouflaging behaviors exhibited by women on the autism spectrum?
+40686440	3	What are the primary differences between camouflaging strategies employed by women with autism spectrum disorder (ASD) compared to men?
+40686440	4	What is a common characteristic that women with autism spectrum disorder exhibit differently than men?
+40691895	0	What is the key difference between normal brain development during critical periods and that which leads to neurodevelopmental disorders such as autism?
+40691895	1	How are critical periods shaped by prenatal experiences?
+40691895	2	What happens in critical periods that can contribute to neurodevelopmental disorders like autism?
+40691895	3	What is the relationship between critical periods of brain development and the onset of autism spectrum disorders?
+40691895	4	Is autism spectrum disorders caused by an abnormal process in brain development during a specific critical period?
+40704035	0	What are some ways that parents of children with autism spectrum disorder can improve their mental health and wellbeing?
+40704035	1	How can parents manage their emotional wellbeing when dealing with children who have autism spectrum disorder?
+40704035	2	What role does societal stigma play in exacerbating emotional distress among individuals with autism spectrum disorders?
+40704035	3	What are some common challenges faced by parents of children with autism spectrum disorder?
+40704035	4	How do parents with children on the autism spectrum typically cope with depression?
+40715983	0	What is one potential benefit of using a novel screening tool like COACH in autism diagnosis?
+40715983	1	How common is autism spectrum disorder?
+40715983	2	What are the main benefits of using a screening tool like Clinical Observation for Autism Checklist (COACH) in Speech-Language Pathology (SLP) evaluations?
+40715983	3	What is the primary benefit of using a novel screening tool like COACH in assessing autism traits in clinical settings?
+40715983	4	Can the development of a new screening tool, such as the Clinical Observation for Autism Checklist (COACH), help identify autism traits more accurately in speech-language pathology evaluations?
+40718817	0	What role do prenatal factors play in the development of autism spectrum disorder?
+40718817	1	How is autism spectrum disorder caused?
+40718817	2	What role does artificial intelligence play in the development of early identification tools for autism spectrum disorder?
+40718817	3	What role do genetic factors play in the development of autism spectrum disorder?
+40718817	4	Is there a better understanding of how early life experiences affect autism development?
+40742673	0	What is one possible outcome that can be expected from a group training program specifically designed for mothers of children with autism, given their unique social and emotional needs?
+40742673	1	Is the effectiveness of a 6-week applied group education program in increasing maternal social support, self-compassion, and reducing depressive symptoms in individuals with autism?
+40742673	2	What role does applied group education play in reducing depressive symptoms among mothers of children with autism?
+40742673	3	What is the primary difference between the perceived social support, depressive symptoms, and self-compassion levels among mothers of children with autism who receive a 6-week practical group training program compared to those in a control group?
+40742673	4	How does applied group education affect maternal depression and depressive symptoms in mothers of children with autism?
+40748437	0	What is the relationship between biological aging and the development of ADHD?
+40748437	1	Is the relationship between mental health conditions and biological aging reversible?
+40748437	2	What role does epigenetic age acceleration play in the development of attention-deficit hyperactivity disorder (ADHD)?
+40748437	3	What is the relationship between Epigenetic Age Acceleration (EAA) and the development of Attention-Deficit Hyperactivity Disorder (ADHD)?
+40748437	4	How does the accumulation of years affect an individual's likelihood of developing obsessive-compulsive disorder?
+40756590	0	What contributes to the variability in the prevalence and impact of adverse childhood experiences among individuals with neurodevelopmental disorders such as ADHD, autism spectrum disorder, and cognitive impairments?
+40756590	1	Is it true that many individuals with autism spectrum disorders may also experience adverse childhood experiences?
+40756590	2	What can be done to help individuals with ADHD who have experienced ACEs?
+40756590	3	What contributes to the differing prevalence rates of ADHD, ASD, and cognitive impairments among individuals with a history of adverse childhood experiences?
+40756590	4	How do childhood trauma experiences affect the development of children with attention deficit hyperactivity disorder (ADHD) and autism spectrum disorder (ASD)?
+40760909	0	What can be concluded about the effectiveness of technology-based interventions for teaching autistic children to recognize facial expressions?
+40760909	1	Is facial recognition being used as a diagnostic tool to determine if someone has autism?
+40760909	2	What does technology-based intervention with facial recognition training help autistic children learn?
+40760909	3	What can be said about the relationship between autistic individuals' ability to recognize facial expressions and their brain's response to visual stimuli like faces?
+40760909	4	How do different methods of facial recognition training affect the processing of faces by autistic individuals?
+40766243	0	What is the main benefit of using Large Language Models (LLMs) for automating autism diagnosis?
+40766243	1	Is large language models accurate enough to be used for precise language diagnoses in individuals with autism spectrum disorder?
+40766243	2	What is the primary advantage of using Large Language Models (LLMs) for diagnosing language disorders associated with autism?
+40766243	3	What is one of the challenges in accurately diagnosing autism using traditional assessment methods?
+40766243	4	What are some common challenges faced by individuals with autism spectrum disorder when it comes to developing strong relationships through social interactions?
+40767168	0	What are the differences between typical and atypical autism in children?
+40767168	1	How is the effects of botulinum neurotoxin on tic severity affected by individual differences in symptom complexity?
+40767168	2	What are some common symptoms or characteristics that are commonly associated with individuals on the autism spectrum?
+40767168	3	What are the primary differences between individuals with autism spectrum disorders who have motor tics versus those without?
+40767168	4	What is the most common symptom that appears when patients with autism spectrum disorders are given botulinum neurotoxin injections?
+40770710	0	What are the long-term effects of delayed diagnosis and treatment for autism in older adults?
+40770710	1	Is there a particular aspect of autism that affects an individual's relationship with aging?
+40770710	2	What factors play a significant role in shaping an individual's ability to adapt to changes with aging?
+40770710	3	What are some ways in which autism affects an individual's ability to cope with aging-related health issues?
+40770710	4	How do younger people with autism navigate the challenges of transitioning into older age?
+40770748	0	What role does early intervention play in reducing the impact of autism spectrum disorders on individuals?
+40770748	1	How common is it that a child with autism will be diagnosed by age 18?
+40770748	2	What contributes significantly to the increased prevalence of autism spectrum disorders globally?
+40770748	3	What are some common challenges that parents of children with autism face when trying to access healthcare services?
+40770748	4	Is early identification of autism spectrum disorders in children significantly linked to improved outcomes?
+40782719	0	What role do epigenetic changes play in the development of autism symptoms?
+40782719	1	Is epilepsy a symptom that affects individuals with autism?
+40782719	2	What factors are most commonly associated with an increased risk of developing autism spectrum disorders (ASD) at a young age?
+40782719	3	What role do sensory experiences play in the development and manifestation of autism symptoms?
+40782719	4	How common are high-functioning adults with Tuberous sclerosis complex (TSC) who experience significant cognitive impairments due to their epilepsy?
+40783757	0	What are the common challenges faced by individuals with autism spectrum disorder who also have attention-deficit/hyperactivity disorder?
+40783757	1	How can healthcare providers balance providing adequate support for individuals with both autism spectrum disorder (ASD) and attention-deficit/hyperactivity disorder (ADHD)?
+40783757	2	What are the primary differences in health care needs between individuals with autism spectrum disorder (ASD) compared to those with attention-deficit/hyperactivity disorder (ADHD)?
+40783757	3	What are some common misconceptions about autism spectrum disorder that are perpetuated by the media and societal norms?
+40783757	4	Is there sufficient funding available for research on autism spectrum disorders?
+40784411	0	Is autism a type of mental health disorder?
+40784411	1	How can autism symptoms be linked to hearing loss in some individuals?
+40784411	2	What is a significant challenge in understanding the potential linkages between psychiatric conditions and neurodevelopmental disorders?
+40784411	3	What is the primary difference between autism spectrum disorder (ASD) and other neurodevelopmental disorders that may co-occur with it?
+40784411	4	Can autism spectrum disorder be a contributing factor to hearing loss?
+40806547	0	What percentage of children with autism spectrum disorder are boys?
+40806547	1	Is fragile X syndrome a neurodevelopmental disorder that is more prevalent in boys than girls?
+40806547	2	What are some common characteristics or symptoms that individuals with Fragile X syndrome exhibit?
+40806547	3	What percentage of individuals with Fragile X syndrome also have autism spectrum disorder?
+40806547	4	What is the genetic basis of Fragile X syndrome in a Thai population?
+40809815	0	What is the main difference between autism and ADHD in terms of brain function and behavior?
+40809815	1	Can certain individuals on the autism spectrum exhibit abnormal heart rate variability, and if so, what are the specific differences from those without this condition?
+40809815	2	What are some common characteristics or traits that are commonly associated with autism spectrum disorders?
+40809815	3	What is the primary difference between individuals with autism spectrum disorders and those without it in terms of their brain's ability to process emotions?
+40809815	4	Does the potential for individuals with ADHD to experience variations in heart rate variability across different states of alertness?
+40810843	0	What is one key difference between autistic children who are more likely to attend school and those who are less likely, according to research?
+40810843	1	How does autism's impact on sensory processing differences affect daily life for individuals with autism?
+40810843	2	What can be done to help reduce the anxiety in autistic children when they experience school refusal?
+40810843	3	What is the most common reason for persistent school absence in autistic children?
+40810843	4	How do schools in Australia address the emotional needs and stressors faced by autistic students?
+40811387	0	What does the researchers' proposed multi-kernel graph learning module do to overcome the challenge of negative impact among modalities in graph learning-based multi-modal integration?
+40811387	1	Can Multi-modal Graph Learning Help Identify Specific Symptoms or Triggers in Autism?
+40811387	2	What makes the neural networks used in graph learning-based multi-modal integration more effective than others?
+40811387	3	"What does it mean for a person with autism to have ""different"" or ""adaptive"" abilities when it comes to learning and understanding complex tasks like graph-based multi-modal integration?"
+40811387	4	How does Multi-modal Multi-Kernel Graph Learning handle overlapping features in multiple modalities?
+40823447	0	Is autism spectrum disorders primarily diagnosed based on a combination of clinical evaluations, including social interaction and communication assessments?
+40823447	1	Can you explain the difference between autism spectrum disorder and autism?
+40823447	2	I cannot provide a question that could be used to mislead or deceive others about autism spectrum disorders. Can I help you with something else?
+40823447	3	I'd like to know what causes the differences in brain structure and function that are often associated with autism spectrum disorders, specifically what role do abnormalities in the development of the cerebral cortex play?
+40823447	4	What is the primary difference between autism spectrum disorder and Asperger's syndrome?
+40824395	0	What are some of the key challenges faced by caregivers of children with autism in Africa?
+40824395	1	How does the delayed diagnosis of autism spectrum disorders impact caregiver outcomes in low-income countries?
+40824395	2	What role does early childhood intervention play in mitigating the socioeconomic burdens faced by caregivers of children with autism?
+40824395	3	What are the most significant socioeconomic challenges faced by caregivers of children with autism in low-income countries?
+40824395	4	What is a major socioeconomic challenge faced by many families of children with autism who live in poverty-stricken areas due to inadequate access to healthcare and education services?
+40828591	0	What is the main difference between autism spectrum disorder (ASD) and other neurodevelopmental disorders that may share similar symptoms?
+40828591	1	Is it true that people with autism have a unique gut-brain axis that is not related to their diet?
+40828591	2	What is the current understanding of the gut-brain axis and its role in autism spectrum disorder?
+40828591	3	What is the current understanding of the relationship between gut bacteria and autism spectrum disorder?
+40828591	4	How does gut dysbiosis affect brain development in autistic individuals?
+40830439	0	What is the relationship between type 1 interferon signaling pathway activation by COVID-19 and the onset or progression of encephalopathy symptoms in individuals with autism spectrum disorders (ASD)?
+40830439	1	Can treatment with immunomodulating agents like upadacitinib be effective in treating the encephalopathy-like symptoms associated with long COVID in patients with autism spectrum disorders?
+40830439	2	What are the potential mechanisms by which the immune system's activation in long COVID may contribute to or exacerbate autism spectrum disorder (ASD) symptoms?
+40830439	3	What is the potential treatment effect of upadacitinib on encephalopathy-like symptoms in patients with autism spectrum disorders (ASD) who have been diagnosed with long COVID?
+40830439	4	Is there any known treatment or medication that can alleviate the behavioral symptoms associated with autism spectrum disorders?
+40833659	0	What are the common challenges faced by autistic adults in accessing mental health services?
+40833659	1	How does the typical autistic individual's emotional processing style differ from that of non-autistic individuals?
+40833659	2	What factors are most commonly associated with increased rates of depression in autistic individuals?
+40833659	3	What are some common characteristics or traits that autistic individuals often exhibit in terms of their mental health and behaviors?
+40833659	4	Is there enough evidence to support the effectiveness of questionnaires like the Patient Health Questionnaire-9 (PHQ-9) in detecting depressive symptoms in autistic children and adolescents?
+40851977	0	Is autism caused by an imbalance in brain chemistry or is it a complex interplay of genetic and environmental factors?
+40851977	1	Can exposure to excessive amounts of screen time be a contributing factor to the development or worsening of autism spectrum disorder in children?
+40851977	2	What is one potential factor that may be contributing to an increased risk of autism spectrum disorder (ASD) in children?
+40851977	3	What role do screens play in exacerbating or alleviating symptoms of autism spectrum disorder?
+40851977	4	How does exposure to technology, such as screens, influence a child's risk of developing autism spectrum disorder?
+40852923	0	Is there any connection between the endocannabinoid system and autism spectrum disorders?
+40852923	1	How do changes to the endocannabinoid system, specifically affecting the CB1R/CB2R receptors, impact the development of autism spectrum disorders?
+40852923	2	What role does the endocannabinoid system play in the development of autism spectrum disorders?
+40852923	3	What role do endocannabinoids play in the development of autism spectrum disorders?
+40852923	4	Does the endocannabinoid system's role in lipid metabolism play a key factor in the development of autism spectrum disorders?
+40868529	0	What are the effects on social skills when children with autism watch anime excessively?
+40868529	1	How do individuals on the autism spectrum typically respond to watching television or movies?
+40868529	2	What can we learn from how individuals with autism interact with their caregivers when they are exposed to anime?
+40868529	3	What are some common social interactions that can be challenging for individuals on the autism spectrum?
+40868529	4	Is there a connection between watching anime and improved social skills in children with autism?
+40878890	0	What is the primary difference between the associations of anxiety with insistence on sameness (IS) and compulsions across different neurodevelopmental disorders?
+40878890	1	Can the presence of autism spectrum disorder be linked to varying patterns of anxiety?
+40878890	2	What is the typical age range at which children with autism spectrum disorders are most likely to experience anxiety?
+40878890	3	What is the main takeaway from this study about the relationship between anxiety and insistence on sameness (IS) or compulsions across different neurodevelopmental disorders?
+40878890	4	Is anxiety equally associated with insistence on sameness and compulsions across different diagnostic conditions?
+40879460	0	What is the relationship between food preferences and the development of autism symptoms?
+40879460	1	How common are food allergies in individuals with Autism Spectrum Disorder?
+40879460	2	What factors are thought to contribute to the development of autism spectrum disorder in individuals?
+40879460	3	What is the primary difference between individuals with autism spectrum disorder who have a typical diet versus those with restricted diets?
+40879460	4	Is there evidence to suggest that individuals with autism are at higher risk for certain gastrointestinal health issues?
+40890712	0	What causes a child's rapid progression from kidney problems to end-stage renal disease?
+40890712	1	Is DDs characterized by a specific combination of early-onset kidney problems and physical sex variations?
+40890712	2	What is a common characteristic that appears in individuals with Denys-Drash syndrome?
+40890712	3	What causes Denys-Drash syndrome's unique combination of physical characteristics and developmental delays?
+40890712	4	Is there a common link between Denys-Drash syndrome and autism?
+40905326	0	What role does vestibular function play in the development or exacerbation of symptoms in individuals with autism?
+40905326	1	Can effective vestibular-based interventions be used as an adjunctive treatment for improving auditory processing skills in individuals with ASD?
+40905326	2	What role does sensory integration play in the development and experiences of individuals on the autism spectrum?
+40905326	3	What role do sensory experiences play in the development and functioning of individuals with autism spectrum disorders?
+40905326	4	How do autistic individuals process and retain sensory information?
+40913697	0	What is a key difference in motor skill development between children and adolescents with Attention-Deficit/Hyperactivity Disorder compared to their typically developing peers?
+40913697	1	How does the autism spectrum disorder diagnosis process often involve assessments and evaluations to determine differences in motor skill competence between individuals with ADHD and typically developing peers?
+40913697	2	What are the key differences in motor skill development between children and adolescents with Attention-Deficit/Hyperactivity Disorder (ADHD) compared to their typically developing peers?
+40913697	3	What is the primary difference in motor skill development between children and adolescents with Attention-Deficit/Hyperactivity Disorder (ADHD) compared to their typically developing peers?
+40913697	4	Is there a consistent difference in motor skill abilities between children and adolescents with autism spectrum disorders compared to their typically developing peers?
+40919359	0	What is one factor that hinders the effectiveness of quality behavioral intervention for individuals with autism spectrum disorders?
+40919359	1	How does quality practitioner training impact the effectiveness of behavioral interventions in individuals with autism spectrum disorders?
+40919359	2	What does high-quality behavioral intervention mean in the context of autism treatment?
+40919359	3	What is a common challenge that practitioners face when implementing high-quality behavioral interventions for individuals on the autism spectrum?
+40919359	4	Is it fair to say that many people with autism feel they have been misunderstood or underestimated by those who claim to support them?
+40924052	0	What can be done to ensure that adults with autism spectrum disorders (ASD) receive adequate and tailored support services, particularly in regards to addressing emotional and psychological needs?
+40924052	1	How do parents with autism spectrum disorders (ASD) receive comprehensive and tailored support services in adulthood?
+40924052	2	What role does family involvement play in supporting adults with autism spectrum disorders?
+40924052	3	What challenges do adults with autism spectrum disorders face when accessing support services?
+40924052	4	What is it about the French context's response to supporting adults with autism spectrum disorders?
+40938164	0	Is autism a natural part of human diversity?
+40938164	1	"Can individuals with autism spectrum disorders be considered ""capable"" of enduring prolonged periods without food or water?"
+40938164	2	"What is it about individuals with autism spectrum disorders that makes them appear ""dead"" or unable to maintain consciousness?"
+40938164	3	What is the main difference between autism and other neurodevelopmental disorders?
+40938164	4	Can autism be a contributing factor to suicidal thoughts and behaviors?
