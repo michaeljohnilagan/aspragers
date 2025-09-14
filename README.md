@@ -139,11 +139,11 @@ Number of documents retrieved was fixed at 5---no optimization.
 ### Retrieval evaluation
 
 The preferred retriever was keyword search.
-It had hit rate of 44% and MRR of 37%.
+It had hit rate of 47% and MRR of 39%.
 Note that the low metrics can be attributed to the questions being vague that multiple articles might actually be relevant to each question.
 
 ### RAG flow evaluation
 
 The preferred Ollama model was `llama3.2:1b`.
-Its mean cosine similarity was 0.66.
+Its mean cosine similarity was 0.65.
 
