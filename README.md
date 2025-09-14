@@ -12,6 +12,8 @@ Think of the response as a starting point to do your own research.
 
 The present project was submitted to DataTalks.Club's [LLM Zoomcamp](https://datatalks.club/courses/llm-zoomcamp/) for its 2025 Cohort.
 
+<p align="center"><a href="https://drive.google.com/file/d/117hb0OvfXsDn3lVaJr-8iMohv8SAt80v/view?usp=sharing">Demo video</a></p>
+
 ## Dataset
 
 The dataset contains bibliographic information from a set of articles on PubMed.
